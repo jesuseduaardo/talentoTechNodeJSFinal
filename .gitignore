@@ -17,3 +17,4 @@ build/
 # Editor folders
 .vscode/
 .idea/
+package-lock.json
