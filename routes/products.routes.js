@@ -117,7 +117,6 @@ router.get('/products/search', productsController.searchProduct);
  */
 router.get("/products/:id", productsController.getProductById);
 
-
 /**
  * @swagger
  * /api/products:
