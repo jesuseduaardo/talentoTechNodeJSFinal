@@ -10,11 +10,5 @@
       "src": "/(.*)",
       "dest": "/"
     }
-  ],
-  "rewrites": [
-    {
-      "source": "/api-docs",
-      "destination": "/api-docs"
-    }
   ]
 }
