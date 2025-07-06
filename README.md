@@ -54,9 +54,6 @@ Esta es la estructura de directorios y archivos del proyecto.
 La documentación interactiva está disponible en:
 https://talento-tech-node-js-final.vercel.app/api-docs
 
-
-> Si no carga correctamente, asegúrate de que los assets de Swagger estén bien configurados en `vercel.json` o usa CDN para los scripts.
-
 ## 🛠️ Instalación local
 
 ```bash
@@ -74,6 +71,13 @@ Luego accede a http://localhost:3000/api-docs para ver la documentación.
 📦 Despliegue
 Este proyecto está desplegado en Vercel: https://talento-tech-node-js-final.vercel.app 
 usando un servidor personalizado (index.js) definido en vercel.json.
+
+## 🩺 Testear si el proyecto esta online 
+https://talento-tech-node-js-final.vercel.app/test/
+
+### Para probar un error 500
+[https://talento-tech-node-js-final.vercel.app/test/](https://talento-tech-node-js-final.vercel.app/test/error500)
+
 
 ✍️ Autor
 Jesús Eduardo Castillo
