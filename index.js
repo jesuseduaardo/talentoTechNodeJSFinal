@@ -27,12 +27,12 @@ const swaggerOptions = {
         openapi: '3.0.0',
         info: {
             title: 'Api productos',
-            version: '1.0.0',
+            version: '1.0.1',
             description: 'Api CRUD de productos para el proyecto final',
         },
         servers: [
             {
-                url: 'http://localhost:3000',
+                url: 'https://talento-tech-node-js-final.vercel.app',
             },
         ],
     },
