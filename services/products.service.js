@@ -9,16 +9,7 @@ export const getProductById = async (id) => {
 }
 
 export const createProduct = async (productData) => {
-    const { nombre, precio, cantidad } = productData;
-    const products = productModel.getAllProducts()
-    const newProduct = {
-        id: products.length + 1,
-        nombre,
-        precio,
-        cantidad
-    }
-    productModel.saveProduct(newProduct);
-    return newProduct;
+    return await productModel.saveProduct(productData);
 }
 
 export const searchProduct = async (nombre) => {

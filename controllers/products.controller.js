@@ -33,7 +33,8 @@ export const createProduct = async (req, res) => {
     if (!nombre || !precio) {
         return res.status(400).json({ error: `Los campos "nombre" y "precio" son requeridos` });
     }
-    res.status(201).json(await productsService.createProduct({ nombre, precio, cantidad }));
+    const result = await productsService.createProduct({ nombre, precio, cantidad })
+    res.status(201).json(result);
 }
 
 // Actualizar un producto
