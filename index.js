@@ -32,7 +32,7 @@ const swaggerOptions = {
         },
         servers: [
             {
-                url: 'https://talento-tech-node-js-final.vercel.app',
+                url: 'http://localhost:3000',
             },
         ],
     },
