@@ -10,15 +10,9 @@ Este es el proyecto final del curso **Talento Tech**, desarrollado con **Node.js
 - Vercel (despliegue)
 - JavaScript (ES Modules)
 
-## 📁 Estructura del proyecto
-
-Claro, aquí tienes una versión mejorada y formateada para un archivo Markdown, con descripciones más claras y profesionales.
-
------
-
 ## 📂 Estructura del Proyecto
 
-Esta es la estructura de directorios y archivos del proyecto. Cada carpeta tiene una responsabilidad única y bien definida.
+Esta es la estructura de directorios y archivos del proyecto.
 
 ```
 .
